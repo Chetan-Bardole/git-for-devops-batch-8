@@ -1,6 +1,7 @@
-# Sorted and Cleaned Git and Linux Commands
 
-        ## Directory and File Management
+# Git and Linux Commands
+
+## 1. Directory and File Management
 ls  
 mkdir GIT_GitHub  
 cd GIT_GitHub/  
@@ -13,17 +14,17 @@ vim tokyo.txt
 vim berlin.txt  
 touch tatya.txt  
 
-        ## Git Initialization and Configuration
+## 2. Git Initialization and Configuration
 git init  
 git config --global user.name "Chetan"  
 git config --global user.email "Chetan@gmail.com"  
 
-        ## Git Status and Logs
+## 3. Git Status and Logs
 git status  
 git log  
 git log --oneline  
 
-        ## Adding and Committing Changes
+## 4. Adding and Committing Changes
 git add tokyo.txt  
 git add berlin.txt  
 git add tatya.txt  
@@ -33,22 +34,21 @@ git commit -m "add one line in file"
 git commit -m "added test line"  
 git commit -m "new 3rd file"  
 
-        ## Branch Management
+## 5. Branch Management
 git branch  
 git checkout -b dev  
 git checkout master  
 git checkout dev  
 
-        ## Miscellaneous Git Commands
+## 6. Miscellaneous Git Commands
 git restore berlin.txt  
 
-        ## Viewing Files and Permissions
+## 7. Viewing Files and Permissions
 ls -a  
 ls -la  
 
-        ## Navigation and Clear Commands
+## 8. Navigation and Clear Commands
 cd  
 cd 1.Batch-8-Server/  
 clear  
 history  
-
